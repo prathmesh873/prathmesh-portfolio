@@ -5,32 +5,32 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "CallHQ",
-    category: "Voice AI Calling Platform",
-    tools: "Voice AI, Calling Automation, CRM Integrations",
+    title: "Scaling NEW RC PET STORE",
+    category: "Performance Marketing & Shopify Growth",
+    tools: "Paid Ads, A/B Testing, Creative Testing, Shopify Optimization",
     image: "/images/callhq.png",
-    link: "https://callhq.ai",
+    link: "https://github.com/prathmesh873",
   },
   {
-    title: "Whatsapp Automation",
-    category: "WABA Application",
-    tools: "WhatsApp Business API, Workflow Automation, Notifications",
+    title: "AI Automation for Retail Operations",
+    category: "Workflow Automation & Customer Systems",
+    tools: "AI Agents, Customer Communication, Content Scheduling, Inventory",
     image: "/images/whatsapp.png",
-    link: "https://whatsapp.callhq.ai",
+    link: "https://github.com/prathmesh873",
   },
   {
-    title: "Broki",
-    category: "Real Estate Platform for FnB Industry",
-    tools: "Property Discovery, Lead Management, Marketplace Workflows",
+    title: "Generative AI Content System",
+    category: "AI-Powered Media Production",
+    tools: "Generative AI, Image Creation, Video Production, Content Marketing",
     image: "/images/broki.png",
-    link: "https://broki.in",
+    link: "https://github.com/prathmesh873",
   },
   {
-    title: "Orrdr.com",
-    category: "Ecommerce Platform and Mobile App",
-    tools: "Ecommerce, Mobile Experience, Order Management",
+    title: "Founder's Office at Zoomies Pet Care",
+    category: "Product Development & Market Research",
+    tools: "Consumer Insights, Brand Positioning, Market Analysis, GTM Strategy",
     image: "/images/orrdr.png",
-    link: "https://orrdr.com",
+    link: "https://github.com/prathmesh873",
   },
 ];
 
@@ -66,9 +66,7 @@ const Work = () => {
         <h2>
           My <span>Work</span>
         </h2>
-
         <div className="carousel-wrapper">
-          {/* Navigation Arrows */}
           <button
             className="carousel-arrow carousel-arrow-left"
             onClick={goToPrev}
@@ -85,8 +83,6 @@ const Work = () => {
           >
             <MdArrowForward />
           </button>
-
-          {/* Slides */}
           <div className="carousel-track-container">
             <div
               className="carousel-track"
@@ -124,14 +120,13 @@ const Work = () => {
               ))}
             </div>
           </div>
-
-          {/* Dot Indicators */}
           <div className="carousel-dots">
             {projects.map((_, index) => (
               <button
                 key={index}
-                className={`carousel-dot ${index === currentIndex ? "carousel-dot-active" : ""
-                  }`}
+                className={`carousel-dot ${
+                  index === currentIndex ? "carousel-dot-active" : ""
+                }`}
                 onClick={() => goToSlide(index)}
                 aria-label={`Go to project ${index + 1}`}
                 data-cursor="disable"
