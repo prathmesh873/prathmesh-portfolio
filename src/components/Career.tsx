@@ -6,7 +6,8 @@ const Career = () => {
       <div className="career-container">
         <h2>
           My career <span>&</span>
-          <br /> experience
+          <br />
+          experience
         </h2>
         <div className="career-info">
           <div className="career-timeline">
@@ -16,57 +17,36 @@ const Career = () => {
             <div className="career-info-in">
               <div className="career-role">
                 <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h5>NEW RC PET STORE</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2020 – Present</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Scaled a pet care retail business through performance marketing, paid ads, A/B testing, Shopify optimization, FMCG partnerships, and AI automation workflows for customer communication and content scheduling.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Founders Intern</h4>
+                <h5>Zoomies Pet Care</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Supported founders on business strategy, product development, brand positioning, product pitching, and market-gap research in the pet care segment. Contributed consumer insight and early-stage go-to-market thinking.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Social Media Marketing Intern</h4>
+                <h5>Brewapps LLC</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
-              </div>
-              <h3>2013-16</h3>
-            </div>
-            <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Created AI-powered social media content for SaaS products, managed brand interactions, researched AI marketing trends, and produced image and video assets using generative AI tools.
             </p>
           </div>
         </div>
