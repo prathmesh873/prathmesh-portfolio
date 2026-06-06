@@ -2,7 +2,6 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedinIn,
-  FaYoutube,
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
@@ -47,7 +46,6 @@ const SocialIcons = () => {
       };
 
       document.addEventListener("mousemove", onMouseMove);
-
       updatePosition();
 
       return () => {
@@ -57,56 +55,46 @@ const SocialIcons = () => {
   }, []);
 
   return (
-    <div className="icons-section">
-      <div className="social-icons" data-cursor="icons" id="social">
-        <span>
-          <a
-            href="https://github.com/akashrmalhotra"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaGithub />
-          </a>
-        </span>
-        <span>
-          <a
-            href="https://www.linkedin.com/in/akashrmalhotra/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaLinkedinIn />
-          </a>
-        </span>
-        <span>
-          <a
-            href="https://www.youtube.com/@Leftbraincoder"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaYoutube />
-          </a>
-        </span>
-        <span>
-          <a
-            href="https://www.instagram.com/leftbraincoder/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaInstagram />
-          </a>
-        </span>
-      </div>
-      <a
-        className="resume-button"
-        href="/Akash_Malhotra.pdf"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <HoverLinks text="RESUME" />
-        <span>
+    <div id="social">
+      <span>
+        <a
+          href="https://github.com/prathmesh873"
+          target="_blank"
+          rel="noreferrer"
+          data-cursor="disable"
+        >
+          <HoverLinks text="GH" />
+          <FaGithub />
+        </a>
+      </span>
+      <span>
+        <a
+          href="https://www.linkedin.com/in/prathmesh873/"
+          target="_blank"
+          rel="noreferrer"
+          data-cursor="disable"
+        >
+          <HoverLinks text="LI" />
+          <FaLinkedinIn />
+        </a>
+      </span>
+      <span>
+        <a
+          href="https://www.instagram.com/prathmesh873/"
+          target="_blank"
+          rel="noreferrer"
+          data-cursor="disable"
+        >
+          <HoverLinks text="IG" />
+          <FaInstagram />
+        </a>
+      </span>
+      <span>
+        <a href="/Prathmesh_Chavan.pdf" data-cursor="disable">
+          <HoverLinks text="CV" />
           <TbNotes />
-        </span>
-      </a>
+        </a>
+      </span>
     </div>
   );
 };
